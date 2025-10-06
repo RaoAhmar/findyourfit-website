@@ -1090,6 +1090,8 @@ body {
   font-weight: 600;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .static-ticker-cta {
@@ -2210,6 +2212,9 @@ body {
   
   .static-ticker-text {
     font-size: 1.2rem;
+    white-space: normal;
+    line-height: 1.4;
+    padding: 0 var(--space-8);
   }
   
   .static-ticker-cta-text {
@@ -2218,6 +2223,10 @@ body {
   
   .static-ticker-section {
     padding: var(--space-12) 0;
+  }
+  
+  .static-ticker-container {
+    gap: var(--space-8);
   }
   
   .contact-content {
@@ -2328,6 +2337,13 @@ body {
   .mentor-card-image {
     height: 280px;
   }
+  
+  .static-ticker-text {
+    font-size: 1.1rem;
+    white-space: normal;
+    line-height: 1.4;
+    padding: 0 var(--space-6);
+  }
 }
 
 @media (max-width: 480px) {
@@ -2431,6 +2447,21 @@ body {
   .btn {
     padding: var(--space-12) var(--space-16);
     font-size: var(--font-size-sm);
+  }
+  
+  .static-ticker-text {
+    font-size: 1rem;
+    white-space: normal;
+    line-height: 1.3;
+    padding: 0 var(--space-4);
+  }
+  
+  .static-ticker-cta-text {
+    font-size: 0.9rem;
+  }
+  
+  .static-ticker-cta {
+    padding: var(--space-6) var(--space-12);
   }
 }
 
