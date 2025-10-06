@@ -2146,26 +2146,42 @@ body {
   }
   
   .logo-image {
-    height: 32px;
+    height: 28px;
   }
   
   .logo h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .header-content {
+    padding: var(--space-12) 0;
+  }
+  
+  .hero {
+    padding-top: 60px;
+    min-height: 90vh;
   }
   
   .hero-content {
     grid-template-columns: 1fr;
-    gap: var(--space-24);
+    gap: var(--space-20);
     text-align: center;
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: var(--space-16);
+  }
+  
+  .hero-description {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-24);
   }
   
   .hero-img {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
   }
   
   .about-content {
@@ -2299,13 +2315,56 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .hero-title {
     font-size: 2rem;
   }
   
   .hero-description {
+    font-size: var(--font-size-lg);
+  }
+  
+  .featured-mentor-image,
+  .mentor-card-image {
+    height: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--space-8);
+  }
+  
+  .header-content {
+    padding: var(--space-8) 0;
+  }
+  
+  .logo-image {
+    height: 24px;
+  }
+  
+  .logo h2 {
+    font-size: 1.25rem;
+  }
+  
+  .hero {
+    padding-top: 50px;
+    min-height: 85vh;
+  }
+  
+  .hero-title {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    margin-bottom: var(--space-12);
+  }
+  
+  .hero-description {
     font-size: var(--font-size-base);
+    margin-bottom: var(--space-20);
+  }
+  
+  .hero-img {
+    max-width: 280px;
   }
   
   .steps-grid {
@@ -2345,6 +2404,33 @@ body {
   
   .mentor-card-horizontal {
     min-height: 280px;
+  }
+  
+  .featured-mentor-card {
+    margin-bottom: var(--space-16);
+  }
+  
+  .mentor-card-box {
+    margin-bottom: var(--space-16);
+  }
+  
+  .featured-mentor-image,
+  .mentor-card-image {
+    height: 250px;
+  }
+  
+  .featured-mentor-content,
+  .mentor-card-content {
+    padding: var(--space-12);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    padding: var(--space-12) var(--space-16);
+    font-size: var(--font-size-sm);
   }
 }
 
