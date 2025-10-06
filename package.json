@@ -1,0 +1,16 @@
+{
+  "name": "findyourfit-website",
+  "version": "1.0.0",
+  "description": "FindYourFit - Empowering Mentor-Mentee Connections",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build step required'",
+    "start": "echo 'Static site - serve index.html'"
+  },
+  "keywords": ["mentorship", "career", "mentoring", "website"],
+  "author": "FindYourFit Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
